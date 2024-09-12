@@ -1,0 +1,188 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: hwb(224 2% 67%);
+    color: white;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    background-color: hwb(224 2% 67%);
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li.logo img {
+    height: 50px; 
+    width: auto;
+    margin-top: -10px;
+}
+nav ul li .green-button {
+    background-color: #04AA6D;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li .green-button:hover {
+    background-color: #028a50;
+}
+
+.header-content-form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header-content {
+    width: 40%;
+    text-align: left;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+.header-content mark {
+    color: #3f3f3f;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.form-container span{
+    color: #004a99;
+    text-decoration: underline;
+}
+.form-container {
+    width: 30%;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    color: black;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: auto;
+    margin-top: 25px;;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: 1px solid #4d0feb;
+    border-radius: 5px;
+    font-size: 0.9em;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: -80px;
+    font-size: 0.8em;
+}
+
+.checkbox-container input {
+    margin-right: -30px; 
+}
+
+form button {
+    margin-top: 20px;
+    padding: 10px 120px;
+    background-color: #04AA6D;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: hwb(224 2% 67%);
+}
+
+#benefits {
+    background-color: hwb(224 2% 67%);
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+
+.benefits-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.benefits-list li {
+    font-size: 1.2em;
+    margin: 10px 0;
+    position: relative;
+    color: white;
+    padding-left: 20px; 
+}
+
+.benefits-list li::before {
+    content: '•';
+    color: #f9f9f9;
+    font-size: 1.5em;
+    position: absolute;
+    left: 0; 
+    top: 0;
+    transform: translateY(0.2em);
+}
+
+
+h3 {
+    text-align: center;
+}
+
+.margin {
+    text-align: right;
+    font-size: 0.8em;
+}
+.container img {
+    max-width:00px;
+    max-height:350px;
+    width: auto;
+    height: auto;
+    margin-left: 50px;
+    transform: rotateY(180deg);
+    
+}
